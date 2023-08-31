@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  /* margin: 2rem auto; */
+  width: 100%;
+  height: 1000px;
+
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  /* background-color: #2196F3; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.header-links {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 145px;
+  margin-top: 3rem;
+}
+
+.logo img {
+  width: 100%;
+}
+

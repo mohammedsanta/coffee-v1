@@ -1,0 +1,45 @@
+.about {
+    padding: 8rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #262525;
+    gap: 5rem;
+}
+
+.about img {
+    width: 50%;
+}
+
+.about-info {
+    width: 85%;
+    margin: auto;
+    color: white;
+}
+
+.about-info h1 {
+
+}
+
+.about-info p {
+
+}
+
+@media screen and (max-width: 980px) {
+    .about {
+        padding: 2rem;
+        flex-direction: column;
+    }
+
+    .about img {
+        width: 75%;
+        margin: auto;
+    }
+
+    .about-info h1 {
+        font-size: 25px;
+    }
+
+    .about-info p {
+        font-size: 12px;
+    }
+}

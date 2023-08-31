@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.home-title {
+    /* position: absolute;
+    top: 50%;
+    right: 20%;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    width: 320px; */
+    font-size: 45px;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/* ========================== */
+
+
+.scroll {
+    position: fixed;
+    right: 25px;
+    bottom: 10px;
+    width: 60px;
+}
+
+.scroll img {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    header a {
+        font-size: 12px;
+    }
+}
